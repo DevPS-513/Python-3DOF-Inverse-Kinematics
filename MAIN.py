@@ -306,7 +306,11 @@ IK_position=ax1.scatter(x_IK,y_IK,z_IK,color='red')
 ax1.plot(x_IK,y_IK,z_IK,label='IK position',color='red')
 command_point=ax1.scatter(x_command,y_command,z_command,color='green')
 
-plt.legend([start_joints,IK_position,command_point], ['start','IK','(x_command,y_command,z_command)'])
+plt.legend([start_joints,IK_position,command_point], ['Initial Robot Position','Commanded Position','(x_command,y_command,z_command)'])
+
+plt.xlabel("x [m]")
+plt.xlabel("y [m]")
+plt.xlabel("z [m]")
 
 
 plt.show()

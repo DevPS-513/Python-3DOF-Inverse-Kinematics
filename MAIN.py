@@ -291,7 +291,7 @@ x_IK=new_joint_points[0]
 y_IK=new_joint_points[1]
 z_IK=new_joint_points[2]
 
-
+other_value='Alexes value'
 
 
 

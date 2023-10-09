@@ -238,7 +238,7 @@ radians=1
 degrees=1/360*2*pi*radians
 
 # initial angles of each joint
-q1_label='original_value'
+q1_label='second_master_value'
 q1=45*degrees   # Base
 q2=60*degrees   # first link relative to base
 q3=-30*degrees  # second link relative to first link

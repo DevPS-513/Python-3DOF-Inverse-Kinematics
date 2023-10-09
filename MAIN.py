@@ -242,7 +242,7 @@ q1_label='second_master_value'
 q1=45*degrees   # Base
 q2=60*degrees   # first link relative to base
 q3=-30*degrees  # second link relative to first link
-q4=-30*degrees  # third link relative to first link
+q4=-12*degrees  # third link relative to first link
 
 # Define each robot arm link length
 l1=3*feet
